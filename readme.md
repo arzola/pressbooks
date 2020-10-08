@@ -74,6 +74,8 @@ Use a DB abstraction layer to write your code. Example: PDO or WPDB. Use prepare
 
 Please run the unit tests using `vendor/bin/pest --filter Db`
 
+Open `index.html` and `insert.php`
+
 ## 4 - You have a group of people that are taking courses from a given list of courses. Write ANSI compliant SQL statements that will do the following:
 
 * Create the tables that allow any person to take any course, but only allow them to sign up for any given course once
