@@ -1,0 +1,5 @@
+name: pressbooks
+recipe: lemp
+config:
+  webroot: .
+  php: '7.4'

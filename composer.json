@@ -1,0 +1,32 @@
+{
+    "name": "arzola/pressbooks",
+    "description": "Test Excersice",
+    "require-dev": {
+        "pestphp/pest": "^0.3.8"
+    },
+    "authors": [
+        {
+            "name": "arzola",
+            "email": "oscararzola@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "arzola/pdf" : "dev-bugfixes"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers/clean.php"
+        ],
+        "psr-4": {
+            "Pressbooks\\" : "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url" : "git@github.com:arzola/pdf.git"
+        }
+    ]
+}
