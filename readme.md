@@ -1,5 +1,7 @@
 # Pressbooks excersices
 
+> Run composer install in the root of this project
+
 ### 1. Explain the differences between HEAD, GET and POST in the HTTP
 
 GET, POST and HEAD are http methods that are used to send data from one point to another, in this case webservers that listen for this verbs.
